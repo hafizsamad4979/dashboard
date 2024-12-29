@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width:100%;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+.sidemenu{
+    width: 16.66%;
+}
+.content{
+    width: 84%;
+    background-color: #f8fafc;
+    height: auto;
+}
+@media (max-width:767px){
+    .content{
+        width: 100%!important;
+    }
+    .sidemenu{
+        display: none !important;
+    }
+}

@@ -1,0 +1,492 @@
+main{
+    background-color: #f8fafc;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+}
+.form1{
+    margin-bottom: 0.5rem;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    border-color: #dae1e7;
+    width: 50%;
+}
+.form1 .heading{
+    background-color: #e2e8f0;
+    padding: 0.75rem 0.5rem;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #cbd5e0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 17px;
+}
+.form1Body{
+    padding: 0.75rem;
+    border-width:1px;
+    border-color: #cbd5e0;
+    border-style: solid;
+}
+.fullNamebox{
+    margin-bottom: 1.5rem;
+}
+.fullName{
+    color: #a0aec0;
+    padding-right: 1rem;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.fullNameInput{
+    width: 100%;
+    color: #606f7b;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    line-height: inherit;
+    border: none;
+}
+.password{
+    color: #a0aec0;
+    padding-right: 1rem;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.PasswordInput{
+    width: 100%;
+    color: #a0aec0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    line-height: inherit;
+    border: none;
+}
+.checkboxline{
+    margin-bottom: 1.5rem;
+}
+.checkbox{
+    display: block;
+    color: #b8c2cc;
+}
+.checkbox input{
+    margin-right: 0.5rem;
+    line-height: 1.25;
+}
+.checkboxTxt{
+    font-size: 0.875rem;
+    line-height: 1.25;
+}
+.button{
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    background-color: #9f7aea;
+    color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.form2{
+    margin-bottom: 0.5rem;
+    border:1px solid #edf2f7;
+    border-radius: 0.25rem;
+}
+.form2 .heading{
+    padding: 0.75rem 0.5rem;
+    border: bottom width 1px;
+    border-style: solid;
+    border-color: #edf2f7;
+    background-color: #edf2f7;
+}
+.form2Body{
+    padding: 0.75rem;
+}
+.form2Body .line1{
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    border-bottom:0.5px solid #38b2ac;
+    margin-bottom: 15px;
+}
+.form2Body .line1 input{
+    width: 100%;
+    color: #718096;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.75rem;
+    border-style: none;
+    background-color: transparent;
+}
+.line1 .btn1{
+    font-size:1rem;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin-right:10px;
+    flex-shrink:0;
+    border-width:4px;
+    border-radius:0.25rem;
+    border-color: #38b2ac;
+    background-color: #38b2ac;
+    border-color: transparent;
+}
+.line1 .btn2{
+    font-size: 1rem;
+    color: black;
+    margin-right: 10px;
+    padding: 0.25rem 0.5rem;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-radius: 0.25rem;
+    background-color: transparent !important;
+    border: none;
+}
+.form2Body .line2{
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    border-bottom: 0.5px solid #f56565;
+    margin-bottom: 15px;
+}
+.form2Body .line2 input{
+    width: 100%;
+    color: #718096;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.75rem;
+    border-style: none;
+    background-color: transparent;
+}
+.line2 .btn1{
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin-right: 10px;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-radius: 0.25rem;
+    border-color: #38b2ac;
+    background-color: #38b2ac;
+    border-color: transparent;
+}
+.line2 .btn2{
+    font-size: 1rem;
+    color: black;
+    margin-right: 10px;
+    padding: 0.25rem 0.5rem;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-radius: 0.25rem;
+    background-color: transparent !important;
+    border: none;
+}
+.form2Body .line3{
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    border-bottom: 0.5px solid #38b2ac;
+    margin-bottom: 15px;
+}
+.form2Body .line3 input{
+    width: 100%;
+    color: #718096;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.75rem;
+    border-style: none;
+    background-color: transparent;
+}
+.line3 .btn1{
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin-right: 10px;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-radius: 0.25rem;
+    border-color: #38b2ac;
+    background-color: #38b2ac;
+    border-color: transparent;
+}
+.line3 .btn2{
+    font-size: 1rem;
+    color: black;
+    margin-right: 10px;
+    padding: 0.25rem 0.5rem;
+    flex-shrink: 0;
+    border-width: 4px;
+    border-radius: 0.25rem;
+    background-color: transparent !important;
+    border: none;
+}
+.gridOuter{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    margin-top: 10px;
+}
+.gridInner{
+    width: 99.5%;
+    margin-bottom: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+}
+.gridHeading{
+    padding: 0.75rem 0.5rem;
+    border: 1px solid #edf2f7;
+    background-color: #e2e8f0;
+}
+.grid{
+    background-color: #f8fafc;
+}
+.grid .line1{
+    display: flex;
+    margin:0 -0.75rem 1.5rem -0.75rem;
+    flex-wrap: wrap;
+}
+.line1_1{
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.line1_1 .heading{
+    display: block;
+    letter-spacing: 0.025rem;
+    font-size: 0.75rem;
+    color: #4a5568;
+    margin-bottom:0.25rem;
+    font-weight: 300;
+}
+.line1_1 .input1{
+    display: block;
+    width: 100%;
+    color: #4a5568;
+    font-weight: 200;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.25rem;
+    border: 1px solid #f56565;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+}
+.line1_1 .txt{
+    font-style: italic;
+    font-size: 0.75rem;
+    color: #f56565;
+}
+.line1_2{
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.line1_2 .heading{
+    display: block;
+    letter-spacing: 0.025rem;
+    font-size: 0.75rem;
+    color: #4a5568;
+    margin-bottom:0.25rem;
+    font-weight: 300;
+}
+.line1_2 .input1{
+    display: block;
+    width: 100%;
+    color: #4a5568;
+    padding: 0.75rem 1rem;
+    font-weight: 200;
+    margin-bottom: 0.75rem;
+    line-height: 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+}
+.grid .line2{
+    display: flex;
+    margin:0 -0.75rem 1.5rem -0.75rem;
+    flex-wrap: wrap;
+}
+.grid .line2 .w-100 label{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #606f7b;
+    padding-left: 0.1rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.025rem;
+}
+.grid .line2 .w-100 input{
+    display:block;
+    width:100%;
+    color:#4a5568;
+    padding:0.75rem 1rem;
+    font-weight: 200;
+    margin-bottom:0.75rem;
+    line-height:1.25rem;
+    border-radius:0.25rem;
+    background-color: #edf2f7;
+    border:none;
+}
+.grid .line2 .w-100 p{
+    font-size: 0.75rem;
+    color: #8795a1;
+    font-style:italic;
+}
+.grid .line3{
+    display: flex;
+    margin:0 -0.75rem 1.5rem -0.75rem;
+    flex-wrap: wrap;
+}
+.grid .line3 .citybox{
+    width: 100%;
+    padding: 0 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.grid .line3 .citybox label{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 300;
+    padding-left: 0.1rem;
+    color: #606f7b;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.025rem;  
+}
+.grid .line3 .citybox input{
+    display:block;
+    width:100%;
+    color:#4a5568;
+    padding:0.75rem 1rem;
+    margin-bottom:0.75rem;
+    line-height:1.25rem;
+    border-radius:0.25rem;
+    font-weight: 200;
+    border:none;
+    background-color: #edf2f7;
+}
+.grid .line3 .statebox{
+    width: 100%;
+    padding: 0 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.grid .line3 .statebox label{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 300;
+    padding-left: 0.1rem;
+    color: #606f7b;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.025rem;  
+}
+.grid .line3 .statebox input{
+    display:block;
+    width:100%;
+    color:#4a5568;
+    padding:0.75rem 1rem;
+    margin-bottom:0.75rem;
+    line-height:1.25rem;
+    border-radius:0.25rem;
+    border:none;
+    font-weight: 200;
+    background-color: #edf2f7;
+}
+.grid .line3 .zipbox{
+    width: 100%;
+    padding: 0 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.grid .line3 .zipbox label{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 300;
+    padding-left: 0.1rem;
+    color: #606f7b;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.025rem;  
+}
+.grid .line3 .zipbox input{
+    display:block;
+    width:100%;
+    color:#4a5568;
+    font-weight: 200;
+    padding:0.75rem 1rem;
+    margin-bottom:0.75rem;
+    line-height:1.25rem;
+    border-radius:0.25rem;
+    border:none;
+    background-color: #edf2f7;
+}
+@media (max-width:767px){
+    .row1{
+        flex-direction: column;
+    }
+    .form1{
+        width: 100%;
+    }
+    .form2{
+        width: 100%;
+    }
+}
+@media (min-width:767px){
+    .fullNamebox{
+        display: flex;
+        align-items: center;
+    }
+    .fullName{
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .password{
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .label{
+        width: 25%;
+    }
+    .FNInput{
+        width: 75%;
+    }
+    .PsInput{
+        width: 75%;
+    }
+    .checkboxline{
+        display: flex;
+        align-items: center;
+    }
+    .empty{
+        width: 33.33%;
+    }
+    .checkbox{
+        width: 66.66%;
+    }
+    .Signup{
+        display: flex;
+        align-items: center;
+    }
+    .btnBox{
+       width: 66.66%;
+    }
+    .form2{
+        width: 50%;
+        margin: 0 0.5rem;
+    }
+    .gridOuter{
+        flex-direction: row;
+    }
+    .line1_1{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .line1_2{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .grid .line3 .citybox{
+        width: 33.33%;
+        margin-bottom: 0;
+    }
+    .grid .line3 .statebox{
+        width: 33.33%;
+        margin-bottom: 0;
+    }  
+    .grid .line3 .zipbox{
+        width: 33.33%;
+        margin-bottom: 0;
+    }  
+}

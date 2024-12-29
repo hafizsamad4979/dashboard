@@ -1,0 +1,27 @@
+.sidemenu{
+    display:block;
+    color: #626b7a;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #626b7a;
+    font-weight: 100;
+    font-size: 0.875rem;
+}
+a div{
+    display: inline;
+}
+li{
+    border-color: #dfe4e6;
+}
+span i{
+    float: right;
+}
