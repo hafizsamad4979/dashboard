@@ -3,6 +3,7 @@ import { FormComponent } from './Components/form/form.component';
 import { ButtonsComponent } from './Components/buttons/buttons.component';
 import { MainComponent } from './Components/dashboard/main.component';
 import { TablesComponent } from './Components/tables/tables.component';
+import { LoginformComponent } from './Components/loginform/loginform.component';
 
 export const routes: Routes = [
     
@@ -29,5 +30,9 @@ export const routes: Routes = [
         {
             path:'tables',
             component:TablesComponent
+        },
+        {
+            path:'loginform',
+            component:LoginformComponent
         }
 ]

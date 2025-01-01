@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MainComponent } from '../dashboard/main.component';
 @Component({
   selector: 'app-content-area',
   imports: [RouterOutlet],
@@ -8,5 +7,4 @@ import { MainComponent } from '../dashboard/main.component';
   styleUrl: './content-area.component.css'
 })
 export class ContentAreaComponent {
-
 }
